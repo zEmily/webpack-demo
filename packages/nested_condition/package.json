@@ -1,0 +1,12 @@
+{
+  "name": "@demo/nested_condition",
+  "main": "./main.js",
+  "version": "1.0.0",
+  "exports": {
+    "node": {
+      "import": "./feature-node.mjs",
+      "require": "./feature-node.cjs"
+    },
+    "default": "./feature.mjs"
+  }
+}
